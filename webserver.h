@@ -11,7 +11,7 @@ typedef struct Server
     int domain;
     int protocol;
     int service;
-    in_addr_t interface; // u_long did not work
+    in_addr_t interface; 
     int port;
     int backlog;
 
